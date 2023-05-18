@@ -18,7 +18,6 @@ public abstract class Item {
     @GeneratedValue
     @Column(name = "item_id")
     private Long id;
-
     private String name;
 
     private int price;
